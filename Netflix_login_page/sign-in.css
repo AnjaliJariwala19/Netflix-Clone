@@ -1,0 +1,129 @@
+/* Sign-In CSS */
+body{
+    background-image:url("image.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    height:70px;
+    width: 120px;
+    background-image: url("logo-removebg-preview.png");
+    background-size: cover;
+    margin-left: 20px;
+}
+hr{
+    color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-box{
+    height: 700px;
+    width: 450px ;
+    background-color:rgba(0, 0, 0, 0.7) ;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.sign-in{
+    margin-top: 40px ;    
+    height: 40px;
+    width:322px;
+    text-align: center;
+}
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#heading{
+    text-align: left;
+    font-size:46px;
+}
+
+input[type=text]{
+    height: 56px;
+    width: 323px;
+    background-color: black;
+    border:solid white 0.3px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+input[type=password]{
+    height: 56px;
+    width: 322px;
+    background-color: black;
+    border:solid white 0.3px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+button{
+    height: 56px;
+    width: 322px;
+    background-color:red;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#or{
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+}
+#code-button{
+    height: 56px;
+    width: 322px;
+    background-color:rgba(255, 255, 255, 0.174);
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.forget-password a{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hovering:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.sign-up a{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    text-align: left;
+}
+#last-line{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    text-align: start;
+}
+#learnmore{
+    display: block;
+    color: rgb(68, 142, 244);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    text-align: left;
+}
